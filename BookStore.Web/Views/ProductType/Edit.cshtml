@@ -1,0 +1,10 @@
+﻿@model ProductTypeVM
+
+@{
+    ViewData["Title"] = "Edit a product type";
+}
+
+@{ViewBag.IsNew = false;}
+
+@await Html.PartialAsync(@"../Shared/Components/_ProductType.cshtml");
+
